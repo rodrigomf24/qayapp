@@ -1,0 +1,1 @@
+<h1>Hello! <?php echo Session::get('user');?></h1>

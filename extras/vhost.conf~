@@ -1,0 +1,16 @@
+<VirtualHost *:80>
+
+	DocumentRoot "/var/www/scripts_varios/stm-laravel/project/public"
+	ServerName laravel.jblanco.dev
+
+	<Directory "/var/www/scripts_varios/stm-laravel/project/public">
+		Options Indexes FollowSymLinks MultiViews
+		AllowOverride all
+	</Directory>
+
+        ErrorLog /var/log/apache2/error-laravel.log
+        # Possible values include: debug, info, notice, warn, error, crit, alert, emerg.
+        LogLevel warn
+        CustomLog /var/log/apache2/access-laravel.log combined
+
+</VirtualHost>

@@ -1,0 +1,14 @@
+.portfolio-gallery{
+    margin-bottom: 15px;
+}
+
+.portfolio{
+    margin-top: 10px;
+}
+
+
+@media (max-width: 767px){
+    .portfolio-gallery > div.span3{
+        margin-bottom: 15px;
+    }
+}

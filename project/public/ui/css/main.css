@@ -1,0 +1,9 @@
+.item{
+    background-color: rgba(0,0,0,0.7);
+    height: 100px;
+    margin-top: 10px;
+}
+
+.itemBox:last-child{
+    margin-bottom: 10px;
+}

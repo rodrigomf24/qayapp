@@ -1,0 +1,76 @@
+.form-container{
+   margin: 10px 0;
+}
+
+.form-container > form{
+   margin: 0 auto;
+   width: 350px;
+}
+
+.form-container > form > input,
+.form-container > form > div,
+.form-container > form > textarea{
+   width: 100% !important;
+   /*Remove rounded corners*/
+   -moz-border-radius: 0px;
+   -webkit-border-radius: 0px;
+   border-radius: 0px;
+}
+
+.form-title{
+   margin-top: 5px;
+   text-align: center;
+}
+
+.form-title > label{
+   font-family: 'muncieregular';
+   font-size: 2em;
+}
+
+input[type="submit"]{
+   width: 90%;
+   height: 55px;
+   font-size: 35px;
+   margin-left: 5%;
+   font-family: 'muncieregular';
+   /*color: #8f8f8f;*/
+   border: 0 none;
+   border-radius: 2px 2px 2px 2px;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: inline-block;
+   line-height: 20px;
+   margin-bottom: 0;
+   margin-top: 10px;
+   padding: 7px 10px;
+   text-transform: none;
+   transition: all 0.3s ease 0s;
+   -moz-transition: all 0.3s ease 0s;
+   -webkit-transition: all 0.3s ease 0s;
+   text-align: center; /* DELETE WHEN WIDTH AUTO */
+   background: none repeat scroll 0 0 #444444;
+   color: #fff;
+}
+
+input[type="submit"]:hover{
+   /*color: #474747;*/
+   background: none repeat scroll 0 0 #46b98a;
+}
+
+input[type="text"], input[type="email"],
+textarea{
+   border: none;
+   background-color: rgba(0,0,0,0.8);
+}
+
+.message{
+   width: 50%;
+   margin-left: 25%;
+}
+
+@media (max-width : 468px){
+   .form-container > form{
+      margin: 0 auto;
+      width: 200px;
+   }
+}

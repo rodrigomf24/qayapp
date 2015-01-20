@@ -1,0 +1,116 @@
+.form-container{
+    background-color: rgba(216,216,216, 0.6);
+    padding: 1em;
+    margin-top: 5em;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+/* -----------------------------------
+base
+----------------------------------- */
+
+
+body{
+    margin: 0;
+    color: #000;
+    background: url('/ui/css/patterns/old_wall.png');
+    font: 100%/1.4 'Helvetica Neue',Helvetica,sans-serif;
+    min-height: 960px;
+    padding: 0 !important;
+}
+
+.wrapper{
+
+}
+
+#header{
+    width: 100%;
+    background-color: #efefef;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+#container{
+	position: relative;
+	margin-top: 120px;
+}
+
+#container .container{
+	padding: 30px;
+}
+
+#container .container > .row {
+	margin-bottom: 10px;
+}
+
+
+
+/* -----------------------------------
+classes
+----------------------------------- */
+
+
+
+
+
+/* fluid images */
+img
+{
+	max-width: 100%;
+	display: block;
+	height: auto;
+	vertical-align: middle;
+	border-radius: 2px;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	image-rendering: optimizeQuality;
+	_width: 100%;
+}
+
+figure { margin: 1em 0; }
+figcaption { font-size: 90%; }
+
+
+@font-face {
+    font-family: 'muncieregular';
+    src: url('fonts/muncie-webfont.eot');
+    src: url('fonts/muncie-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/muncie-webfont.woff') format('woff'),
+         url('fonts/muncie-webfont.ttf') format('truetype'),
+         url('fonts/muncie-webfont.svg#muncieregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************************
+ *****RESPONSIVE*********
+ ***********************/
+
+@media (max-width: 780px){
+	#menu{
+		margin-right: 15px;
+	}
+}
+
+@media (max-width: 767px){
+	#menu{
+		margin-right: 15px;
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 632px){
+	#header .logo img{
+		margin: 0 auto;
+	}
+}
